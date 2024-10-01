@@ -1,0 +1,13 @@
+.category {
+   display: flex;
+   flex-direction: column;
+   row-gap: 60px;
+   margin-top: 60px;
+}
+
+.category__title {
+   font-family: var(--main-font-family);
+   font-size: var(--h1-text-size);
+   color: var(--main-color);
+   text-align: center;
+}

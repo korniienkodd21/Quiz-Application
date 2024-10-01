@@ -1,0 +1,56 @@
+.variant-card {
+   position: relative;
+   display: block;
+   padding: 18px 28px 18px 62px;
+   width: 460px;
+   max-width: 100%;
+   border-radius: var(--variant-border-radius);
+   border: var(--variant-border);
+   font-size: var(--main-text-size);
+   font-weight: 500;
+   user-select: none;
+   cursor: pointer;
+   word-break: break-word;
+}
+
+.variant-card__input {
+   display: none;
+}
+
+.variant-card::before {
+   content: "";
+   position: absolute;
+   width: 24px;
+   height: 24px;
+   border: 2px solid var(--variant-border-color);
+   border-radius: 100%;
+   top: 50%;
+   transform: translateY(-50%);
+   left: 20px;
+}
+
+.variant-card::after {
+   content: "";
+   display: none;
+   position: absolute;
+   width: 12px;
+   height: 12px;
+   border-radius: 100%;
+   background-color: var(--third-main-color);
+   top: 50%;
+   transform: translateY(-50%);
+   left: 26px;
+}
+
+.variant-card--active {
+   border: var(--variant-border-active);
+   color: var(--third-main-color);
+}
+
+.variant-card--active::before {
+   border: 2px solid var(--third-main-color);
+}
+
+.variant-card--active::after {
+   display: block;
+}

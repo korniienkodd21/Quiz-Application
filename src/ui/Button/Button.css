@@ -1,0 +1,28 @@
+.button {
+   min-width: 220px;
+   border: none;
+   text-align: center;
+   padding: 18px 28px;
+   cursor: pointer;
+   transition: all 0.4s;
+   font-family: var(--main-font-family);
+   font-size: var(--h4-text-size);
+   color: var(--second-main-color);
+   border-radius: var(--button-border-radius);
+   background-color: var(--button-background);
+   box-shadow: var(--button-box-shadow);
+   transition: all 0.3s;
+   align-self: center;
+   user-select: none;
+}
+
+.button:disabled {
+   background-color: var(--button-background-disabled);
+   border: 2px solid var(--third-main-color);
+   color: var(--third-main-color);
+}
+
+.button:hover:not(:disabled) {
+   transform: translateY(-10px);
+   transition: all 0.3s;
+}

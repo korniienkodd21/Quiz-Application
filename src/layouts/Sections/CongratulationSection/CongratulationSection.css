@@ -1,0 +1,42 @@
+.congratulation {
+   margin-top: 100px;
+   text-align: center;
+}
+
+.congratulation__title {
+   font-size: 30px;
+   padding-bottom: 28px;
+}
+
+.congratulation__category {
+   font-size: 18px;
+   color: var(--main-color);
+   padding-bottom: 32px;
+}
+
+.congratulation__box {
+   margin-bottom: 100px;
+}
+
+.congratulation__first-text,
+.congratulation__second-text {
+   font-size: var(--h3-text-size);
+}
+
+.congratulation__first-text {
+   padding-bottom: 16px;
+}
+
+.congratulation__second-text {
+   padding-top: 16px;
+}
+
+.congratulation__count-correct {
+   font-size: 36px;
+}
+
+.congratulation__buttons {
+   display: flex;
+   justify-content: center;
+   column-gap: 80px;
+}

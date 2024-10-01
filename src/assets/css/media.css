@@ -1,0 +1,209 @@
+@media (max-width: 1281px) {
+   .header__logo {
+      width: 90px;
+      height: 90px;
+   }
+   .header__title {
+      font-size: 26px;
+   }
+   .category {
+      row-gap: 50px;
+      margin-top: 40px;
+   }
+   .category__title {
+      max-width: 90%;
+      font-size: 26px;
+      margin: 0 auto;
+   }
+   .categories-list {
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: 70%;
+      margin: 0 auto;
+      column-gap: 40px;
+   }
+   .button {
+      min-width: 200px;
+      padding: 14px 20px;
+      font-size: 18px;
+   }
+   .question {
+      margin-top: 40px;
+   }
+   .congratulation {
+      margin-top: 80px;
+   }
+   .category-card {
+      max-width: 260px;
+      font-size: 18px;
+      padding: 28px 20px 40px;
+   }
+   .category-card__text {
+      font-size: 14px;
+   }
+   .category-card__decor {
+      bottom: -10px;
+   }
+   .hotbar {
+      width: 500px;
+   }
+}
+
+@media (max-width: 841px) {
+   .header__logo {
+      width: 80px;
+      height: 80px;
+   }
+   .header__title {
+      font-size: 24px;
+   }
+   .category__title {
+      font-size: 24px;
+   }
+   .categories-list {
+      max-width: 100%;
+   }
+   .question__category {
+      font-size: 18px;
+   }
+   .question__current {
+      font-size: 32px;
+   }
+   .hotbar__line {
+      height: 10px;
+   }
+   .variants-list {
+      row-gap: 20px;
+   }
+   .variant-card {
+      font-size: 14px;
+   }
+   .congratulation__box {
+      margin-bottom: 80px;
+   }
+   .congratulation__title {
+      font-size: 26px;
+   }
+   .congratulation__category {
+      font-size: 16px;
+   }
+   .congratulation__first-text,
+   .congratulation__second-text {
+      font-size: 20px;
+   }
+   .congratulation__count-correct {
+      font-size: 32px;
+   }
+   .question__title {
+      font-size: 18px;
+   }
+}
+
+@media (max-width: 657px) {
+   .category-card {
+      max-width: 240px;
+      font-size: 16px;
+      padding: 24px 18px 36px;
+   }
+}
+
+@media (max-width: 481px) {
+   .header__logo {
+      width: 70px;
+      height: 70px;
+   }
+   .header__title {
+      font-size: 20px;
+   }
+   .category__title {
+      font-size: 20px;
+   }
+   .category-card {
+      max-width: 240px;
+      padding: 24px 16px 36px;
+   }
+   .category-card__title {
+      font-size: 20px;
+   }
+   .category-card__icon {
+      width: 50px;
+   }
+   .category-card__decor {
+      bottom: -15px;
+   }
+   .button {
+      min-width: 180px;
+      padding: 12px 16px;
+      font-size: 16px;
+   }
+   .question__category {
+      font-size: 16px;
+   }
+   .question__current {
+      font-size: 28px;
+   }
+   .question__title {
+      font-size: 16px;
+   }
+   .variant-card {
+      width: 300px;
+   }
+   .congratulation__title {
+      font-size: 22px;
+   }
+   .congratulation__category {
+      font-size: 14px;
+   }
+   .congratulation__first-text,
+   .congratulation__second-text {
+      font-size: 18px;
+   }
+   .congratulation__count-correct {
+      font-size: 28px;
+   }
+   .congratulation__buttons {
+      column-gap: 60px;
+   }
+   .question__title {
+      text-align: center;
+   }
+   .congratulation__buttons {
+      column-gap: 60px;
+      flex-wrap: wrap;
+      row-gap: 20px;
+   }
+}
+
+@media (max-width: 321px) {
+   .variant-card {
+      font-size: 12px;
+      padding: 16px 20px 16px 58px;
+   }
+   .category__title {
+      max-width: 100%;
+      font-size: 16px;
+   }
+   .category-card {
+      max-width: 220px;
+      padding: 20px 12px 30px;
+   }
+   .category-card__title {
+      font-size: 18px;
+   }
+   .category-card__text {
+      font-size: 12px;
+   }
+   .category-card__decor {
+      bottom: -25px;
+   }
+   .button {
+      padding: 12px 16px;
+   }
+   .question__current {
+      font-size: 24px;
+   }
+   .variant-card {
+      font-size: 12px;
+      padding: 12px 20px 12px 58px;
+   }
+}

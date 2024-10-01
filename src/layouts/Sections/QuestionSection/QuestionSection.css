@@ -1,0 +1,25 @@
+.question {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 60px;
+}
+
+.question__category {
+   padding-bottom: 24px;
+}
+
+.question__current {
+   font-size: 36px;
+   padding-bottom: 24px;
+}
+
+.question__title {
+   padding-bottom: 32px;
+}
+
+.question button {
+   align-self: center;
+   margin-top: 60px;
+}
